@@ -39,3 +39,22 @@
   .p-1 {
     padding: 1px;
   }
+
+  .row {
+    /* background-color: lightseagreen; */
+    display: flex;
+  }
+
+  .col {
+    /* background-color: red; */
+    flex-grow: 1;
+  }
+
+  .col:nth-child(odd) {
+    margin-right: 10px;
+  }
+
+  input {
+    display: block;
+    margin: 5px;
+  }
